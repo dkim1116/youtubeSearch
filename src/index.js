@@ -16,6 +16,8 @@ class App extends Component{
 			videos: [],
 			selectedVideo: null
 		};
+
+		this.videoSearch('facebook react');
 	}
 
 	videoSearch(term) {
